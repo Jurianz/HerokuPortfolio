@@ -32,3 +32,6 @@ Route::resource('/assignments', 'assigmentcontroller');
 // Route::get('/assignments/{assignment}/edit', 'assigmentController@edit');
 // Route::get('/assignments/{assignment}', 'assigmentController@show');
 // Route::patch('/assignments/{assignment}', 'assigmentController@update');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
