@@ -19,8 +19,8 @@ Route::get('/email', 'PagesController@email');
 Route::get('/courses', 'CoursesController@index');
 
 //students route
-//Route::resource('/students', 'StudentController');
-Route::get('/students', 'StudentController@index');
+Route::resource('/students', 'StudentController');
+// Route::get('/students', 'StudentController@index');
 
 //assignments routes
 Route::resource('/assignments', 'assigmentcontroller');
