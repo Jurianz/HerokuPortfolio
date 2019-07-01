@@ -4,7 +4,9 @@
 @import 'variables';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
+::-webkit-scrollbar {
+  display: none;
+ }
 
 .navbar-inner {
 
@@ -99,7 +101,7 @@
   position: absolute;
   top: -20px;
   left: -20px;
-  rigt: -20px;
+  right: -20px;
   bottom: -20px;
 }
 

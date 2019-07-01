@@ -20,6 +20,7 @@ Route::get('/courses', 'CoursesController@index');
 
 //students route
 Route::resource('/students', 'StudentController');
+Route::resource('/dashboard','DashboardController');
 // Route::get('/students', 'StudentController@index');
 
 //assignments routes
@@ -33,5 +34,4 @@ Route::resource('/assignments', 'assigmentcontroller');
 // Route::get('/assignments/{assignment}', 'assigmentController@show');
 // Route::patch('/assignments/{assignment}', 'assigmentController@update');
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');

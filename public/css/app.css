@@ -10491,6 +10491,10 @@ a.text-dark:focus {
   }
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .navbar-inner .nav {
   list-style-type: none;
   margin: 0;
@@ -10567,7 +10571,7 @@ a.text-dark:focus {
   position: absolute;
   top: -20px;
   left: -20px;
-  rigt: -20px;
+  right: -20px;
   bottom: -20px;
 }
 
