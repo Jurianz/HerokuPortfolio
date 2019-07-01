@@ -10,6 +10,7 @@ class DashboardController extends Controller
     {
         $this->middleware('auth');    
         $this->middleware('admin');
+
     }
     /**
      * Display a listing of the resource.
