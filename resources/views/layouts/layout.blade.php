@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="{{secure_asset('css/app.css')}}">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 <body class="pls">

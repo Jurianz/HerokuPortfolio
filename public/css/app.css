@@ -10508,6 +10508,16 @@ a.text-dark:focus {
   font-family: "Ubunto", sans-serif, medium;
 }
 
+.navbar-inner .navbar-toggler {
+  color: white;
+  border: 5px solid red;
+}
+
+.navbar-inner .navbar-brand {
+  color: white;
+  border: 5px solid red;
+}
+
 .navbar-inner li {
   float: left;
   margin-left: 5vh;
